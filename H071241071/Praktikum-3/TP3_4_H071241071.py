@@ -8,5 +8,5 @@ else :
     for i in pecahan:
         JumlahPecahan = kembalian // i
         if JumlahPecahan > 0:
-            print(f"{JumlahPecahan} lembar {i} rupiah")
+            print(f"{JumlahPecahan} lembar {i:,} rupiah")
         kembalian %= i
